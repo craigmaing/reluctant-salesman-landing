@@ -1,0 +1,35 @@
+name: reluctant-salesman
+region: lon
+static_sites:
+- name: web
+  github:
+    repo: craigmaing/reluctant-salesman-landing
+    branch: master
+    deploy_on_push: true
+  build_command: npm run build
+  output_dir: dist
+  environment_slug: node-js
+  envs:
+  - key: RESEND_API_KEY
+    value: "${RESEND_API_KEY}"
+    scope: BUILD_TIME
+    type: SECRET
+  - key: PUBLIC_SITE_URL
+    value: https://thereluctantsalesman.com
+    scope: BUILD_TIME
+    type: GENERAL
+  routes:
+  - path: /
+  cors:
+    allow_origins:
+    - prefix: https://thereluctantsalesman.com
+    - prefix: https://www.thereluctantsalesman.com
+    allow_methods:
+    - GET
+    - POST
+    - PUT
+    - DELETE
+    - OPTIONS
+    allow_headers:
+    - Content-Type
+    - Authorization
