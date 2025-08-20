@@ -1,0 +1,53 @@
+name: reluctant-salesman-landing
+region: lon
+features:
+  - buildpack-stack=ubuntu-22
+
+static_sites:
+  - name: web
+    github:
+      repo: your-github-username/financial-services-landing
+      branch: main
+      deploy_on_push: true
+    build_command: npm run build
+    output_dir: dist
+    environment_slug: node-js
+    
+    # Environment variables for email service
+    envs:
+      - key: PUBLIC_SITE_URL
+        value: https://thereluctantsalesman.com
+        type: GENERAL
+      - key: SMTP_HOST
+        value: smtp-relay.sendinblue.com
+        type: GENERAL
+      - key: SMTP_PORT
+        value: "587"
+        type: GENERAL
+      - key: SMTP_USER
+        scope: RUN_TIME
+        type: SECRET
+      - key: SMTP_PASS
+        scope: RUN_TIME
+        type: SECRET
+      - key: EMAIL_TO
+        value: terry@thereluctantsalesman.com
+        type: GENERAL
+      - key: EMAIL_FROM
+        value: noreply@thereluctantsalesman.com
+        type: GENERAL
+
+    # Routes
+    routes:
+      - path: /
+      - path: /api/contact
+        
+    # CORS settings if needed
+    cors:
+      allow_origins:
+        - prefix: https://thereluctantsalesman.com
+      allow_methods:
+        - GET
+        - POST
+      allow_headers:
+        - Content-Type

@@ -1,0 +1,229 @@
+{
+  "pageTitle": "Financial Services Sales Training Exeter | The Reluctant Salesman",
+  "timestamp": "2025-08-20T09:50:33.126Z",
+  "sections": [
+    {
+      "name": "Hero Section",
+      "found": true,
+      "visible": true
+    },
+    {
+      "name": "Challenge Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "Approach Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "What You'll Learn Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "Workshop Details Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "Testimonials Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "About Trainer Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "Next Steps Section",
+      "found": false,
+      "visible": false
+    },
+    {
+      "name": "Contact Form Section",
+      "found": true,
+      "visible": true
+    },
+    {
+      "name": "Footer",
+      "found": true,
+      "visible": true
+    }
+  ],
+  "images": {
+    "total": 2,
+    "broken": 0,
+    "brokenList": []
+  },
+  "links": {
+    "internal": 8,
+    "list": [
+      {
+        "href": "http://localhost:4321/#contact",
+        "text": "Enquire About Next Workshop",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/#approach",
+        "text": "Learn Our Approach",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/#contact",
+        "text": "Check Availability",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/#contact",
+        "text": "Check Availability",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/#approach",
+        "text": "Our Approach",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/#workshop",
+        "text": "Workshop Details",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/#contact",
+        "text": "Get in Touch",
+        "isInternal": true
+      },
+      {
+        "href": "http://localhost:4321/privacy",
+        "text": "Privacy Policy",
+        "isInternal": true
+      }
+    ]
+  },
+  "headings": [
+    {
+      "tag": "h1",
+      "text": "Sales Training for Financial Professionals Who Prefer\nRelationships Over\nPushy Tactics"
+    },
+    {
+      "tag": "h2",
+      "text": "You Became a Financial Advisor to Help People, Not to 'Sell' to Them"
+    },
+    {
+      "tag": "h3",
+      "text": "The Traditional Way Feels Wrong"
+    },
+    {
+      "tag": "h3",
+      "text": "But You Still Need to Grow"
+    },
+    {
+      "tag": "h2",
+      "text": "The Power of Authenticity Method©"
+    },
+    {
+      "tag": "h3",
+      "text": "Understand & Identify"
+    },
+    {
+      "tag": "h3",
+      "text": "Connect & Explore"
+    },
+    {
+      "tag": "h3",
+      "text": "Present & Progress"
+    },
+    {
+      "tag": "h3",
+      "text": "Created BY Someone Who Was Reluctant to Sell"
+    },
+    {
+      "tag": "h2",
+      "text": "Practical Skills for Real Situations"
+    },
+    {
+      "tag": "h3",
+      "text": "You'll Learn How To:"
+    },
+    {
+      "tag": "h3",
+      "text": "Perfect For:"
+    },
+    {
+      "tag": "h2",
+      "text": "Small Group Training in Exeter"
+    },
+    {
+      "tag": "h3",
+      "text": "Workshop Information"
+    },
+    {
+      "tag": "h3",
+      "text": "What's Included"
+    },
+    {
+      "tag": "h2",
+      "text": "What Previous Participants Say"
+    },
+    {
+      "tag": "h2",
+      "text": "Led by Someone Who's Been in Your Shoes"
+    },
+    {
+      "tag": "h3",
+      "text": "From Reluctant to Remarkable"
+    },
+    {
+      "tag": "h4",
+      "text": "Credentials & Experience"
+    },
+    {
+      "tag": "h2",
+      "text": "Ready to Transform Your Approach to Business Development?"
+    },
+    {
+      "tag": "h3",
+      "text": "Reserve Your Place"
+    },
+    {
+      "tag": "h3",
+      "text": "Book a Brief Call"
+    },
+    {
+      "tag": "h3",
+      "text": "Download Free Guide"
+    },
+    {
+      "tag": "h2",
+      "text": "Get in Touch"
+    },
+    {
+      "tag": "h3",
+      "text": "Send Us a Message"
+    },
+    {
+      "tag": "h3",
+      "text": "Download Free Guide"
+    },
+    {
+      "tag": "h3",
+      "text": "Direct Contact"
+    },
+    {
+      "tag": "h3",
+      "text": "The Reluctant Salesman"
+    },
+    {
+      "tag": "h3",
+      "text": "Contact"
+    },
+    {
+      "tag": "h3",
+      "text": "Quick Links"
+    }
+  ],
+  "consoleErrors": []
+}

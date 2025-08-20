@@ -1,0 +1,14 @@
+# Robots.txt for The Reluctant Salesman
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Sitemap: https://thereluctantsalesman.com/sitemap.xml
+
+# Optimize crawl rate
+Crawl-delay: 1
+
+# Block access to admin/private areas if any
+Disallow: /api/
+Disallow: /.env
+Disallow: /node_modules/

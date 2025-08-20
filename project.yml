@@ -1,0 +1,15 @@
+# DigitalOcean Functions project configuration
+packages:
+  - name: contact
+    functions:
+      - name: contact
+        runtime: nodejs:18
+        web: true
+        webSecure: false
+        parameters:
+          EMAIL_TO:
+            type: string
+            value: terry@thereluctantsalesman.com
+          EMAIL_FROM:
+            type: string
+            value: noreply@thereluctantsalesman.com

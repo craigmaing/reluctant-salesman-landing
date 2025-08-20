@@ -1,0 +1,75 @@
+---
+export interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description = "Sales Training for Financial Professionals Who Prefer Building Relationships Over Pushing Products. Learn authentic selling from someone who understands your reluctance." } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={description} />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
+    
+    <title>{title}</title>
+    
+    <!-- Import Tailwind styles -->
+    <link rel="stylesheet" href="/src/styles/global.css" />
+    
+    <!-- Structured Data for SEO -->
+    <script type="application/ld+json">
+      {JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "name": "The Reluctant Salesman",
+        "description": "Authentic sales training for financial professionals in Southwest UK who prefer building relationships over pushing products",
+        "url": "https://thereluctantsalesman.com",
+        "telephone": "07795835110",
+        "email": "terry@thereluctantsalesman.com",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Exeter",
+          "addressRegion": "Devon",
+          "addressCountry": "UK"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Southwest UK"
+        },
+        "priceRange": "£495-£2,800",
+        "founder": {
+          "@type": "Person",
+          "name": "Terry Mullins",
+          "jobTitle": "Founder & Sales Trainer"
+        },
+        "offers": {
+          "@type": "Offer",
+          "name": "Financial Services Sales Training Workshop",
+          "price": "495",
+          "priceCurrency": "GBP",
+          "availability": "https://schema.org/InStock",
+          "validFrom": "2025-01-20",
+          "url": "https://thereluctantsalesman.com#workshop"
+        }
+      })}
+    </script>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
