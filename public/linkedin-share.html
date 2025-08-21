@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>LinkedIn Share Image - The Reluctant Salesman</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            width: 1200px;
+            height: 627px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+            background: linear-gradient(135deg, #f8fafc 0%, #dbeafe 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        .container {
+            padding: 60px;
+            text-align: center;
+            z-index: 2;
+            position: relative;
+        }
+        .title {
+            font-size: 56px;
+            font-weight: 700;
+            color: #111827;
+            margin-bottom: 20px;
+            line-height: 1.1;
+        }
+        .highlight-red {
+            color: #dc2626;
+        }
+        .strike {
+            text-decoration: line-through;
+            color: #9ca3af;
+        }
+        .subtitle {
+            font-size: 26px;
+            color: #374151;
+            margin-bottom: 40px;
+            line-height: 1.4;
+            font-weight: 400;
+        }
+        .features {
+            display: flex;
+            gap: 40px;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+        .feature {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 20px;
+            color: #4b5563;
+        }
+        .checkmark {
+            width: 24px;
+            height: 24px;
+            background: #10b981;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: bold;
+            flex-shrink: 0;
+        }
+        .location {
+            font-size: 22px;
+            color: #6b7280;
+            font-weight: 500;
+        }
+        .pattern {
+            position: absolute;
+            top: -100px;
+            right: -100px;
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, rgba(239,68,68,0.1) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .pattern2 {
+            position: absolute;
+            bottom: -150px;
+            left: -150px;
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, rgba(59,130,246,0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="pattern"></div>
+    <div class="pattern2"></div>
+    <div class="container">
+        <h1 class="title">
+            Sales Training for Financial Professionals Who Prefer 
+            <span class="highlight-red">Relationships</span> Over 
+            <span class="strike">Pushy Tactics</span>
+        </h1>
+        
+        <p class="subtitle">
+            Learn the Power of Authenticity method from someone who<br>
+            understands your reluctance to 'sell'
+        </p>
+        
+        <div class="features">
+            <div class="feature">
+                <span class="checkmark">✓</span>
+                <span>Financial Services Focused</span>
+            </div>
+            <div class="feature">
+                <span class="checkmark">✓</span>
+                <span>Small Groups (Max 20)</span>
+            </div>
+            <div class="feature">
+                <span class="checkmark">✓</span>
+                <span>CPD Points</span>
+            </div>
+        </div>
+        
+        <p class="location">
+            📍 Exeter, Southwest UK • Terry Mullins
+        </p>
+    </div>
+</body>
+</html>
