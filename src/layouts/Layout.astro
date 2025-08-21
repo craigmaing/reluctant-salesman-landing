@@ -1,4 +1,6 @@
 ---
+import '../styles/global.css';
+
 export interface Props {
   title: string;
   description?: string;
@@ -30,9 +32,6 @@ const { title, description = "Sales Training for Financial Professionals Who Pre
     <link rel="canonical" href="https://thereluctantsalesman.com/" />
     
     <title>{title}</title>
-    
-    <!-- Import Tailwind styles -->
-    <link rel="stylesheet" href="/src/styles/global.css" />
     
     <!-- Structured Data for SEO -->
     <script type="application/ld+json">
